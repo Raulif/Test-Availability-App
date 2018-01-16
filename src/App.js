@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './app.css';
 import Users from './users.json';
 import { getUserAvailability } from './helper-functions';
 import UsersList from './users-list'
