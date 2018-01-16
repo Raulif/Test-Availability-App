@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+.userslist {
+  grid-column: 1 / 2;
+  width: 100%;
+  border-right: 1px dotted #434343;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+ul {
+  width: 60%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h3 {
+  margin-bottom: 25px;
+}
+
+.list-item {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  height: 60px;
+}
+
+.list-item:hover {
+  background-color: AliceBlue;
+}
+
+.list-item__text-wapper {
+  width: 79%;
+  text-align: center;
+}
+
+.list-item__circle-wrapper {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.red {
+  background-color: red;
+}
+.orange {
+
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.lightgreen {
+  background-color: lightgreen;
+}
+
+.green {
+  background-color: green;
+}
+
+.user-detail {
+  grid-column: 2 / 3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}

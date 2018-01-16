@@ -1,0 +1,29 @@
+{
+  "2o8XIHnKMoada5lN0Dzbn8Wy4Dt2" : {
+    "absent" : false,
+    "availabilityArray" : [ 4, 4, 5, 5, 4, 4, 3 ],
+    "lastUpdated" : 1515661518593,
+    "name" : "Lisa",
+    "note" : "",
+    "panicking" : false,
+    "version" : "1.0.7"
+  },
+  "6uhTYeRlTgNdhUC4kNGckf5gc2c2" : {
+    "absent" : false,
+    "availabilityArray" : [ 3, 4, 5, 5, 4, 4, 4 ],
+    "lastUpdated" : 1515655936026,
+    "name" : "Martin",
+    "note" : "Freitag nicht im Büro",
+    "panicking" : false,
+    "version" : "1.0.7"
+  },
+  "9fqaUX5LT7QZJsZ6Z0jyi872tPd2" : {
+    "absent" : false,
+    "availabilityArray" : [ 3, 3, 3, 3, 5, 5, 3 ],
+    "lastUpdated" : 1515493820064,
+    "name" : "Thomas",
+    "note" : "",
+    "panicking" : false,
+    "version" : "1.0.7"
+  }
+}
